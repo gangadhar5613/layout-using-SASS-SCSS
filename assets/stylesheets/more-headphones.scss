@@ -1,0 +1,24 @@
+.more-headphones img{
+ width: 200px;
+ height: 200px;
+}
+
+.more-headphones h2{
+    padding-bottom: 1em;
+    padding-top: 1em;
+    
+}
+
+.more-headphones{
+    background-color:rgb(235, 235, 33);
+    padding-top: 1em 0;
+}
+
+.more-col{
+    padding-top: 1em;
+}
+
+.more-col img:hover{
+  background-color: rgba(0,0,0,0.5);
+  display: inline-block;
+}

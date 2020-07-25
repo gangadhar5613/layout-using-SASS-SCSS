@@ -1,0 +1,37 @@
+.new-headphone img {
+  width: 100%;
+}
+
+.new-headphone {
+  padding-top: 2em;
+}
+
+.new-headphone h3 {
+  padding-bottom: 1em;
+}
+
+.new-col {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 30%;
+          flex: 0 1 30%;
+  -webkit-box-shadow: .2em .2em 2em .1em lightgray;
+          box-shadow: .2em .2em 2em .1em lightgray;
+  padding: 1em;
+  background-color: lightyellow;
+}
+
+.new-headphone p {
+  font-size: 1em;
+  color: gray;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.new-headphone .new-btn {
+  background-color: yellow;
+  padding: .8em 1.3em;
+  border-radius: .5em;
+  margin-top: .2em;
+  display: inline-block;
+}
+/*# sourceMappingURL=new-headphone.css.map */

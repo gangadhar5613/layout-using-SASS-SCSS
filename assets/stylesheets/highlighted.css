@@ -1,0 +1,30 @@
+.promotion {
+  text-align: center;
+  background-color: yellow;
+  padding: 1em 2em;
+  color: black;
+  line-height: 1.5em;
+}
+
+.highlighted {
+  background-color: yellow;
+  margin-top: 2em;
+  color: black;
+  margin-bottom: 2em;
+  text-align: center;
+  line-height: 1.5em;
+}
+
+.promotion-cn {
+  padding: 2em 0;
+}
+
+.highlighted h2 {
+  padding-bottom: 1em;
+  line-height: 1.5em;
+}
+
+.highlighted h4 {
+  padding-bottom: 1em;
+}
+/*# sourceMappingURL=highlighted.css.map */

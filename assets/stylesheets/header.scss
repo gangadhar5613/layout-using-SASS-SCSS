@@ -1,0 +1,33 @@
+.header .logo{
+    font-size: 2.2em;
+    font-weight: 600;
+    color:black;
+    padding-top: .5em;
+   
+}
+.header{
+    padding-top: .5em;
+    
+}
+
+.bar{
+    display: none;
+    padding-top: .5em;
+}
+.nav-item a{
+    font-size: 1.3em;
+    padding-left: .8em;
+    font-weight: 500;
+    color: black;
+}
+label{
+    font-size: 1.5em;
+
+}
+#toggle{
+    display: none;
+}
+
+#toggle:checked ~ .nav{
+    display: inline-block;
+}

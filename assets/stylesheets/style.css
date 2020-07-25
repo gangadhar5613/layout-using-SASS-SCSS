@@ -1,0 +1,414 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*-----My reset---------*/
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2em;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Kaushan Script', cursive;
+  font-family: 'Righteous', cursive;
+  line-height: 1.4em;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+h4 {
+  font-size: 1em;
+}
+
+.header .logo {
+  font-size: 2.2em;
+  font-weight: 600;
+  color: black;
+  padding-top: .5em;
+}
+
+.header {
+  padding-top: .5em;
+}
+
+.bar {
+  display: none;
+  padding-top: .5em;
+}
+
+.nav-item a {
+  font-size: 1.3em;
+  padding-left: .8em;
+  font-weight: 500;
+  color: black;
+}
+
+label {
+  font-size: 1.5em;
+}
+
+#toggle {
+  display: none;
+}
+
+#toggle:checked ~ .nav {
+  display: inline-block;
+}
+
+.banner {
+  background: url("/assets/media/banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 800px;
+  position: relative;
+  top: -100px;
+  z-index: -1;
+}
+
+.bnr-cn {
+  position: relative;
+  top: 350px;
+}
+
+.banner h3 {
+  padding-bottom: 1em;
+}
+
+.banner h1 {
+  font-weight: 600;
+  padding-bottom: 1em;
+  line-height: 1.4em;
+}
+
+.btn {
+  background-color: white;
+  padding: 1em 2em;
+  border-radius: 2.2em;
+  color: black;
+  font-size: 1.2em;
+}
+
+.heading {
+  padding-bottom: 1em;
+}
+
+.info p {
+  line-height: 1.5em;
+  font-weight: normal;
+  color: gray;
+  text-indent: 20px;
+}
+
+.info {
+  padding-bottom: 3em;
+}
+
+.info-2 h3 {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.info-2-col {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 20%;
+          flex: 0 1 20%;
+  background-color: lightyellow;
+  -webkit-box-shadow: .2em .2em 2em .1em lightgray;
+          box-shadow: .2em .2em 2em .1em lightgray;
+  padding: 1.2em;
+}
+
+.info-2-col h2 {
+  color: yellow;
+  font-size: 2.5em;
+  padding: .5em 0;
+}
+
+.info-2-col p {
+  padding: 1em 0;
+}
+
+.info-2-col .link {
+  padding-top: 1em;
+  color: yellow;
+}
+
+.info-2 {
+  margin-bottom: 2em;
+}
+
+.promotion {
+  text-align: center;
+  background-color: yellow;
+  padding: 1em 2em;
+  color: black;
+  line-height: 1.5em;
+}
+
+.highlighted {
+  background-color: yellow;
+  margin-top: 2em;
+  color: black;
+  margin-bottom: 2em;
+  text-align: center;
+  line-height: 1.5em;
+}
+
+.promotion-cn {
+  padding: 2em 0;
+}
+
+.highlighted h2 {
+  padding-bottom: 1em;
+  line-height: 1.5em;
+}
+
+.highlighted h4 {
+  padding-bottom: 1em;
+}
+
+.new-headphone img {
+  width: 100%;
+}
+
+.new-headphone {
+  padding-top: 2em;
+}
+
+.new-headphone h3 {
+  padding-bottom: 1em;
+}
+
+.new-col {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 30%;
+          flex: 0 1 30%;
+  -webkit-box-shadow: .2em .2em 2em .1em lightgray;
+          box-shadow: .2em .2em 2em .1em lightgray;
+  padding: 1em;
+  background-color: lightyellow;
+}
+
+.new-headphone p {
+  font-size: 1em;
+  color: gray;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.new-headphone .new-btn {
+  background-color: yellow;
+  padding: .8em 1.3em;
+  border-radius: .5em;
+  margin-top: .2em;
+  display: inline-block;
+}
+
+.more-headphones img {
+  width: 200px;
+  height: 200px;
+}
+
+.more-headphones h2 {
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+
+.more-headphones {
+  background-color: #ebeb21;
+  padding-top: 1em 0;
+}
+
+.more-col {
+  padding-top: 1em;
+}
+
+.more-col img:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: inline-block;
+}
+
+.map {
+  padding: 2em 0;
+}
+
+.map iframe {
+  width: 26em;
+  height: 20em;
+  padding-top: 2em;
+}
+
+.map-info {
+  text-align: center;
+}
+
+footer {
+  padding: 2em 0;
+  text-align: center;
+  background-color: yellow;
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 12px;
+  }
+  .flex-col {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .nav {
+    display: none;
+  }
+  .bar {
+    display: inline-block;
+  }
+  #toggle:checked ~ .nav {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  .header .logo {
+    z-index: 2;
+    font-size: 2em;
+  }
+  .bar {
+    z-index: 2;
+  }
+  .nav .nav-items {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+  }
+  .nav .nav-items li {
+    padding-bottom: 2em;
+    color: black;
+    font-size: 1.5em;
+  }
+  .nav .nav-items a {
+    color: black;
+  }
+  .bnr-cn {
+    text-align: center;
+  }
+  .new-col {
+    margin-bottom: .5em;
+  }
+  .more-headphones {
+    text-align: center;
+  }
+  .info-2 h3 {
+    text-align: center;
+  }
+  .info-2-col {
+    margin-bottom: .6em;
+  }
+}
+/*# sourceMappingURL=style.css.map */
